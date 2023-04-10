@@ -1,0 +1,121 @@
+body {
+    background-color: #76efff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+main {
+    margin-top: 80px;
+    width: 75%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+}
+
+div {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0px;
+    flex: 5;
+}
+
+div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 0px;
+}
+
+button {
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: 1px solid;
+    background-color: #76efff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #76efff;
+    border: 1px solid #76efff;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    color: white;
+    font-size: 23px;
+    background-color: #76efff;
+}
+
+th {
+    text-align: start;
+    padding: 10px;
+}
+
+th:nth-child(1) {
+    width: 250px;
+}
+
+th:nth-child(2) {
+    width: 200px;
+}
+
+th:nth-child(3) {
+    width: 350px;
+}
+
+th:nth-child(4) {
+    width: 200px;
+}
+
+td {
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+td:nth-child(4) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+a {
+    color: #76efff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.message {
+    color: #76efff;
+    
+}
